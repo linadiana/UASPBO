@@ -1,0 +1,87 @@
+/*CSS Halaman*/
+* {
+ margin:0;
+ padding:0;
+}
+
+.wrapper{
+ background:red;
+ width: 9000px;
+ margin: 10px auto;
+ font-family: verdana;
+}
+
+/*css header*/
+.wrapper .header{
+ background:Blanchedalmond;
+ height: 100px;
+ padding: 2px 10px;
+ color: white;
+ text-align: center;
+ padding: 50px 20px 20px 20px;
+}
+/*batas css header*/
+
+/*css menu*/
+.wrapper .menu{
+ background: yellow;
+}
+
+.wrapper .menu ul{
+ padding: 0;
+ margin: 0;
+ background: gray;
+ overflow: hidden;
+}
+
+.wrapper .menu ul li{
+ float: left;
+ list-style-type: none;
+ padding: 10px;
+}
+
+.wrapper .menu ul li a{
+ text-decoration: none;
+ color: white;
+ padding-left: 45px;
+}
+/*batas css menu*/
+
+/*css sidebar-content*/
+.sidebar-content{
+ height: 4890px;
+}
+
+/*css sidebar*/
+.wrapper .sidebar-content .sidebar{
+ background: #BDBDBD;
+ float: left; 
+ width: 25%;
+ height: 100%;
+}
+
+.wrapper .sidebar-content .sidebar p {
+ text-align: center;
+ margin: 20px;
+}
+
+/*batas css sidebar*/
+.wrapper .sidebar-content .content{
+ background: #D8D8D8;
+ float: left;
+ height: 100%;
+ width: 75%; 
+}
+
+.wrapper .sidebar-content .content p {
+ margin: 20px;
+ text-align: justify;
+}
+
+/*batas css sidebar-content*/
+.wrapper .footer{
+ padding: 10px;
+ background-color: black;
+ color: white;
+ text-align: center;
+}
